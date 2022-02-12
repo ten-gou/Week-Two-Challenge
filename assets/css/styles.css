@@ -12,20 +12,23 @@ body {
 /*header styles*/
 
 header {
-    padding: 20px 35px;
+    padding: 10px 0px;
     background-color: #7f6060;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+header div {
+    background-color: blanchedalmond;
+    padding-left: 10%;
+}
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
     margin: 0;
 }
 header a {
-    color: #fce138;
+    color: #7f6060;
     text-decoration: none;
 }
 header nav {
@@ -40,6 +43,7 @@ header nav ul{
 }
 header nav ul li a {
     margin: 0 30px;
+    color: #503b3b;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -72,19 +76,51 @@ footer a {
 section {
     padding: 60px;
     justify-content: center;
-    align-items: stretch;
+    align-content: stretch;
 }
 .section-title {
-    float: left;
+    justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    float: left;
     width: 20%;
-    border-right: #024e76 5px solid;
+    border-right: 3px solid;
+    margin-right: 10%;
+}
+.section-title h1 {
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: right;
 }
 .section-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    float: right;
     width: 70%;
+}
+
+/* border styles */
+
+.primary-border {
+    border-color: #5c8ca7;
+}
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* work content styles*/
+
+.works div article {
+    display: flex;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: #5c8ca7 3px solid;
+    min-width: 400px;
+
+}
+.works div article .title {
+    background-color: #5c8ca7;
+    margin-top: 100%;
+    text-align: left;
 }
