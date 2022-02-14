@@ -128,11 +128,11 @@ section {
     position: relative;
 }
 .works div article .title {
-    background-color: #f1dc9f;
+    background-color: #613c30;
     text-align: left;
     font-size:calc(10px + 2vw);
     font-weight: bold;
-    color: #855d45;
+    color: #e9cca7;
     position: absolute;
     top: 75%;
     left: 0%;
